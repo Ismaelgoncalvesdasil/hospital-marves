@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#bod {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.forms {
+    margin: auto;
+    background-color: rgb(22, 166, 223);
+    padding: 2rem;
+    border-radius: 10px;
+    min-width: 30%;
+    overflow: auto;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.forms form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.inputs {
+    padding: 8px 5px;
+    outline: none;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 2px solid rgb(0, 53, 212);
+    width: 100%;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.inputs:focus {
+    border-color: black
+}
+
+.enviar {
+    background-color: rgb(0, 102, 255);
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: .3s;
+    color: black;
+    text-align: center;
+}
+
+.enviar:hover {
+    background-color: #fff;
+}
+
+.men[type="text"] {
+    padding: 100px 5px;
+    border: 2px solid rgb(1, 1, 219);
+    width: 100%;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+
+
+
+.aaa {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(22, 166, 223);
+    margin-bottom: 30px;
+}
+
+.h {
+    margin-left: 55px;
+}
+
+.h ul {
+    text-align: center;
+    font-size: 70px;
+    list-style: none;
+    padding: 0;
+}
+
+.h ul li {
+    max-width: 400px;
+    display: inline;
+}
+
+.h li a {
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.h ul #h li a:hover {
+    background-color: red;
+}
+
+.logo {
+    height: 100px;
+    width: -200px;
+    display: inline-flex;
+    margin: 1px 0px;
+}
+
+.h ul li a:hover {
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+.inicio {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.mavis {
+    color: black;
+
+    font-size: 40px;
+    text-align: center;
+    margin: 50px 50px 50px 20px;
+}
+
+.i {
+    width: 700px;
+    margin-left: 290px;
+
+}
+
+
+
+
+
+
+
+
+.texto {
+    display: flex;
+    color: rgb(19, 141, 223);
+    text-decoration: none;
+    font-size: 35px;
+    
+}
+
+
+
+.texto-sobre {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.imag {
+    width: 50px;
+    margin-left: 20px;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+
+.fotos img {
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    border: 2px solid black;
+
+}
+
+.fotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+.fotos2 img {
+    margin: 15px;
+    border: 2px solid black;
+}
+
+.fotos2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Menu {
+    font-size: 50px;
+    font-family: times;
+    color: #011640;
+    text-align: center;
+    text-shadow: 2px 2px #0F398C;
+
+
+}
+
+.mat {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    flex-direction: row;
+}
+
+
+.ciror1 {
+    text-align: center;
+    font-size: 14px;
+    font-family: Tahoma;
+    border: 0.5px solid black;
+    margin: 0px 10px;
+
+}
+
+.ciror2 {
+    text-align: center;
+    font-size: 14px;
+    font-family: Tahoma;
+    border: 0.5px solid black;
+    margin: 0px 10px;
+}
+
+.ciror3 {
+    text-align: center;
+    font-size: 14px;
+    font-family: Tahoma;
+    border: 2px solid black;
+    margin: 0px 10px;
+}
+
+.lol {
+    text-align: center;
+    font-size: 14px;
+    font-family: Tahoma;
+    border: 0.5px solid black;
+    margin: 0px 15px;
+
+}
+
+
+.lol2 {
+    text-align: center;
+    font-size: 14px;
+    font-family: Tahoma;
+    border: 0.5px solid black;
+    margin: 0px 15px;
+}
+
+.lol3 {
+    text-align: center;
+    font-size: 14px;
+    font-family: Tahoma;
+    border: 1px solid black;
+    margin: 0px 15px;
+
+
+
+}
+
+.hj {
+    height: 135px;
+    width: 195px;
+}
+
+
+section p {
+    position: relative;
+    background: #011640;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 30px;
+    transition: 0, 5s;
+
+}
+
+section p:hover {
+
+    letter-spacing: 0.25em;
+    background: var(--clr);
+    box-shadow: 0 0 10px var(--clr);
+}

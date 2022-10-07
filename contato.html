@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contato</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./java/contato.js"></script>
+</head>
+<body>
+    <div class="aaa">
+        <div class="logo">
+            <a href="./index.html"><img src="./Logo.jpeg" width="150px"></a>
+        </div>
+        <div class="h">
+            <ul>
+            <nav class="h m">    
+                <li><a href="./quem somos.html">Quem Somos</a></li>
+                <li><a href="./nossos serviços.html">Nossos Serviços</a></li>
+                <li><a href="./nossa equipe.html">Nossa Equipe</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </nav>
+            </ul>
+        </div>
+    </div> 
+    
+      <div id="bod">  
+        <div  class="forms">
+            <H1>Formulario de contato</H1>
+            <form name="formcontato" method="POST">
+                Nome: <input type="text" name="nome" placeholder="Nome Completo" required class="inputs"></br></br>
+                E-mail: <input type="email" name="email" placeholder="Seu melhor e-mail" required class="inputs"></br></br>
+                Assunto: <input type="text" name="assunto" placeholder="Assunto do contato" required class="inputs"></br></br>
+                Mensagem: <input type="text" name="mensagem" required class="men"></input></br></br>
+               <a href="./contato.html" onclick=" validar()" class="enviar">Enviar</a>
+            </form>
+        </div>
+      </div>  
+
+</body>
